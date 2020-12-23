@@ -9,8 +9,12 @@
 using namespace std;
 
 int main() {
-   
-    cout << "Hello world" << endl;
+    int a;
+    
+    cout << "Hello what is your age : " << endl;
+    cin >> a;
+    
+    cout << "Your age is " << a << " years old" << endl;
     
     return 0;
 }
